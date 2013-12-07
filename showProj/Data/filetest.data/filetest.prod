@@ -1,0 +1,15 @@
+1|Gum|Chewing Gum Package|0.25|0.75|0000001
+2|Candy|Edible Candy|0.1|0.5|0000010
+3|Bat|non-edible Baseball Bat|9|15.99|0000011
+4|Potato|semi-edible potato|1.75|2.5|0000100
+5|Bubbles|Soap Flavored Bubbles|4|5|0000101
+6|Apples|Non-candied Apples|2|3.5|0000110
+7|Phone Case|Flexible Phone Case|20|35|0000111
+8|Paper|Computer Paper|30|32|0001000
+9|RAM|Printer RAM|4|15|0001001
+10|Hourly Services|Hourly Services|15|60|0001010
+11|Bagels|Official Bagels|1|3.5|0001011
+12|Blueberry Bagels|Official Amazing Bagels|2|5|0001100
+13|Muffins|Semi-okay Muffins|0.5|1|0001101
+14|Bananas|Large Bananas|0.75|1.5|0001110
+15|Water|Non-potable water|0.2|1|0001111

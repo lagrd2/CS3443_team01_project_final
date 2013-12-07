@@ -1,0 +1,80 @@
+*****************								README												***************************
+
+
+GETTING STARTED WITH MyCMS:
+*********************************************************************************************************************************
+	WELCOME SCREEN:
+
+			Upon the first run of the program, you will see a welcom screen. There are two options: new and open.
+				NEW:
+					This will take you to a file browser. You MUST create a NEW directory. Just slelect where you want 
+					the new directory to go and NAME the direcroy with a unique name(ie not the same as any other
+					directory under the directory that you choose to put it under. For simplification on the botton 
+					of the file browser, in the "Folder Name" field, enter what you want your new database to be called.
+				OPEN:
+!!!!!!!!!!!!!!!!!				IMPORTANT NOT PLEASE READ					 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!			
+					When opening the test file, open new1.data
+					new1.data is located under the Data directory. 
+
+					Test File: new1.data
+						Logins:
+							admin:
+								username: user
+								password: password
+							normal user:
+								username: user1
+								password: password
+								
+*******************************************************************************************************************************								
+								
+	AFTER LOGIN:
+		THINGS TO TRY:
+			We put great effort in not only the functionality, but also the detail.
+********************************************************************************************************************************			
+			Searching:
+				You can search by any combination of imformation fileds. Searching by Account 
+				Number or Transaction Number produce results in O(lg n) running time. 
+				If you search by Account, the cus
+			
+				-TRY: Searching for any customer by entering the search criteria on the search area(left) of the window
+					Some useful searches:
+						- Search first name "Warren"
+						- Search last name "Battle"
+						- Search Account Number "50637681"
+						- Search Transaction Number "30574831"
+				-If you hit enter on any search filed, when all search fileds are cleared, MyCMS will display the original database
+				-If no results have been found, you will get a blank screen, just hit enter on any search field to obtain original
+					list again
+				- Notice, every time a search is performed, all search fields are reset
+***********************************************************************************************************************************
+			Quick note on transactions:
+				Every customer has his unique set of transactions. If "Credit" is listed as a payment method, 
+				the customer will inquire a negative account balance(Seen later)
+************************************************************************************************************************************
+			ABOUT THE DISPLAY TABLES:
+				The tables are interactable. 
+					-On the top of each coulmn header, click on it to sort the data by increasing and decreasing order
+					-Move the coulmns anywhere you want within the table!! *
+					-Select any customer, and his transactions will show on the botton transactions table
+************************************************************************************************************************************
+			MODIFIYING CUSTOMERS:
+				-Select any customer and select any of the top customers buttons on top of the JTable.
+				-Notice if no customer has been selected (can be done after a search), a helpful pop up will appear 
+					MAKE A PAYMENT:
+						- Making a payment reducuces the customers account balance by the payment amount;
+					ADD TRANSACTION:
+						-The add transaction button will create a new transaction for that customer, again if 
+							"Credit" is specified as the payment type, the customers account balance will be updated;
+				
+				
+				
+
+				
+				
+				
+				
+				
+			
+			
+			 
+					

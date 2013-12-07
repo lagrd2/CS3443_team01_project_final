@@ -1,0 +1,10 @@
+Included is a list of known bugs. 
+This is to show that we are well aware of the limitations of our program, and are not submitting a 100% complete working program. 
+We would also like to say that many of these bugs are those created by "feature" upgrades that have happened, and worked until the end working out as many bugs as possible.
+
+-Admins can delete self... causing orphaned cust files. 
+-Table allows for more than one customer to appear to be selected at once. 
+-non double characters can be entered on the price line of make transaction. 
+-making a payment does not add a new transaction. 
+-Moving the Account Number column to differnt location causes errors when any update is made. All other columns are free to move
+without errors

@@ -1,0 +1,25 @@
+I think the best way to move forward with the encryption (once it is figured out...) is to store all users
+in a separate text file. Reason being: if we do move to a multi-user environment, we would have to recreate the 
+user authentication system, as the customer file would be encrypted with a particular user's password. 
+
+We may need to consult the group on this, but I think that the following model might make life easier on us. 
+AuthenticatedUsers.txt format:
+UserName,Password,FilesWithAccessTo,AuthLevel
+UserName2,Password,FilesWithAccessTo,Authlevel
+
+
+[Key]
+!!!!!ENCRYPTION KEY FOR FILE1!!!!
+!!!!!ENCRYPTION KEY FOR FILE2!!!!
+[/KEY]
+
+
+This file can be encrypted with a simple encryption (+5) or whatnot.
+If a user authenticates correctly, it un-encrypts the specified file (If the user has access to it) with a 
+sudo(or fully) random key which is created by the program when the file is created. 
+
+Granted this is not the most secure solution, but it seems to me that it would function well enough for us. 
+This could still be merged with the customer file itself, but I feel like having two separate files would be easier
+to manage. 
+
+I would like the group's input on this, and will create an issue in github with this information. 

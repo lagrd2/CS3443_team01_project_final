@@ -1,0 +1,16 @@
+Keys for files
+Transaction files (.trns)
+	Transaction ID:Client ID:Product ID:Amount Sold:Payment Method
+Customer Files (.cust)
+	Customer ID:Firstname:Lastname:Phone:Email:Address:City:Zipcode
+Product Files (.prod)
+	Product ID:Product Name:Product Description:Vendor Cost:Sale Price:UPC
+
+Short math explanation:
+When calculating a transaction, the program should look at the transaction file (or data structure) for the Product ID and Amount Sold.
+It should then look to the Product file (or structure) for the corresponding Product for the Sale Price. 
+With this information the program can calculate the totals of all sales. 
+Other: The total profit can be calculated as well.
+
+Thoughts: This method of doing things may be seen as incorrect. More information may need to be stored in the .trns file concerning the sale.
+Say the price of Apples changes, then all previous transactions would reflect incorrectly. 
